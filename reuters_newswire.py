@@ -85,3 +85,9 @@ plt.show()
 # Evaluating  the model
 
 print(model.evaluate(x_test, one_hot_test_labels))
+
+# Generating predictions for new data
+
+predictions = model.predict(x_test)
+
+print(predictions)
